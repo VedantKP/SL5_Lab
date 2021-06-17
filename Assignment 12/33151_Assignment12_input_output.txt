@@ -1,0 +1,18 @@
+(base) vedantkp@vedantkp-Lenovo-ideapad-330-15IKB:~/SL5$ gedit 33151_Assignment12.l
+(base) vedantkp@vedantkp-Lenovo-ideapad-330-15IKB:~/SL5$ gedit 33151_Assignment12.y
+(base) vedantkp@vedantkp-Lenovo-ideapad-330-15IKB:~/SL5$ lex 33151_Assignment12.l
+(base) vedantkp@vedantkp-Lenovo-ideapad-330-15IKB:~/SL5$ yacc 33151_Assignment12.y
+(base) vedantkp@vedantkp-Lenovo-ideapad-330-15IKB:~/SL5$ gcc y.tab.c -ll -ly
+(base) vedantkp@vedantkp-Lenovo-ideapad-330-15IKB:~/SL5$ ./a.out
+Enter the expression : while(k=c/s)k=k*c+d;
+L1: 
+t0 = c / s
+k = t0
+t1 = not k
+if t1 goto L0
+t2 = k * c
+t3 = t2 + d
+k = t3
+goto L1 
+L0: 
+(base) vedantkp@vedantkp-Lenovo-ideapad-330-15IKB:~/SL5$
